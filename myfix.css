@@ -1,0 +1,27 @@
+.fill-background {
+    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 1s; /* For modern browsers */
+}
+a {
+    border-bottom: none;
+}
+.fill-background:hover {
+    background: rgba(207, 255, 239, 0.4);
+}
+
+@keyframes mymove {
+    to {background-color: rgb(200, 249, 233, 0.3);}
+}
+
+.fill-text {
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.7s;
+}
+
+.fill-text:hover {
+    color:rgb(210, 88, 88);
+}
+
+.green-animation:hover {
+    color: rgb(36, 178, 36);
+}
